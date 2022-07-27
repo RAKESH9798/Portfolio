@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Let's learn web development</title>
+</head>
+<body>
+<!-- *******************************navabar******************************************* -->
+   <!-- The navigation menu -->
+<div class="navbar">
+    <a class="active" href="home.html">Home</a>
+    <a href="project.html">Project</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="login.html">Login</a>
+  </div> 
+
+<!-- *****************************************home page************************************* -->
+<section class="home-page">
+    <div class="about me">
+        <h3 class="title">hey</h3>
+        <h1 class="title">i am rakesh</h1>
+        <h4 class="title">full stack web developer</h4>
+        <button class="button">hire me</button>
+        <button class="button">get cv</button>
+    </div>
+    <div class="about my-image">
+        <img src="image/logo p.jpg" alt="logo" srcset="" width="600" height="375">
+    </div>
+</section>
+
+<!-- project area -->
+<section class="projext-area">
+ 
+
+    <h1 class="project-heading">full stack web development learning path.</h1>
+    <div class="container1">
+      <ul class="project-list pa-1">
+      <li class="project-item">html</li>
+      <li class="project-item">css</li>
+      <li class="project-item">javascript</li>
+      <li class="project-item">jquery</li>
+      <li class="project-item">dom</li>
+      <li class="project-item">api</li>
+    </ul>
+    <ul class="project-list pa-2">
+      <li class="project-item">mongodb</li>
+      <li class="project-item">angular</li>
+      <li class="project-item">react</li>
+      <li class="project-item">node js</li>
+      <li class="project-item">ux</li>
+      <li class="project-item">mongoose</li>
+    </ul>
+  </div>
+</section>
+<!-- *************************contact page************************* -->
+<section class="contact-page">
+  <div class="container">
+    <div class="show address">
+        <div class="place details">
+          <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+          <div class="text-one">jehanabad, 804432</div>
+          <div class="text-two">bihar</div>
+       </div>
+       
+         <div class="phone details">
+           <i class="fas fa-phone-alt"></i>
+           <div class="topic">Phone</div>
+           <div class="text-one">+91-9798894221</div>
+         
+        </div>
+        <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">rakeshranjan804432@gmail.com</div>
+            
+        </div>
+       
+
+    </div>  
+    <div class="get address>
+
+
+        
+           <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+        <form action="#">
+       
+       <input type="text" placeholder="Enter your name">
+       </div>
+      <div class="input-box">
+      <input type="text" placeholder="Enter your email">
+        </div>
+       
+          <div class="button">
+       <input type="button" value="Send Now" class="contact-button" >
+         </div>
+         </form>
+   </div>
+
+  </div>
+</section>   
+
+<!-- ********************login section************************* -->
+<div class="login-page">
+  <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+<!-- *********************footer area******************************** -->
+<div class="footer">
+  <section id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="container">
+            <div class="text-center center-block">
+                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+    </section>
+  <footer>@copyright from let's learn web development 2022.</footer>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
